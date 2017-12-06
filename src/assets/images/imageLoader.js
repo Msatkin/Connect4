@@ -12,9 +12,7 @@ import { loader } from 'pixi.js';
 //Pre-loads images
 export default function(callback) {
     const loader = new PIXI.loaders.Loader();
-
-    const sprites = {};
-
+    
     loader.add('column', boardPiece);
     loader.add('token', token);
     loader.add('mainBackground', mainBackground);

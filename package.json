@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "repository": "https://github.com/Msatkin/Connect4",
   "description": "A HTML connect 4 game built using PixiJS",
+  "homepage": "https://msatkin.github.io/Connect4",
   "config": {
     "buildDir": "./build"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm run build && webpack-dev-server --content-base ./build/ --hot --inline",
     "webpack": "webpack -p",
     "build": "npm run webpack"

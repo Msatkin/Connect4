@@ -3,7 +3,6 @@ import LoadingScene from './scenes/Loading';
 import MainScene from './scenes/Main';
 import GameScene from './scenes/Game';
 import EndScene from './scenes/End';
-import { win32 } from 'path';
 
 SceneManager.create();
 

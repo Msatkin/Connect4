@@ -11,7 +11,7 @@ module.exports = {
     target : 'web',
     output: {
         path: path.resolve(pkg.config.buildDir),
-        publicPath: "/",
+        publicPath: "/Connect4/",
         filename: "bundle.js"
     },
     node: {
